@@ -1,0 +1,7 @@
+def c(cadena):
+    if cadena ==  "" :
+        return ""
+    else:
+        return c(cadena[1:])+cadena[0]
+
+print(c("santiago"))
